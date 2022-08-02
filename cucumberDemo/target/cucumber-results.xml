@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="15.786582">
+    <testcase classname="Register Test" name="Hesap Yaratma" time="12.458768">
+        <system-out>
+            <![CDATA[Given Websitesine git.......................................................passed
+And Sign butonuna tıkla.....................................................passed
+And "bernasalman@gmail.com" email gir.......................................passed
+And Create an Account butonuna tıkla........................................passed
+And title seç...............................................................passed
+And isim "Berna" ve soyad "Salman" gir......................................passed
+And şifre "berna123" gir....................................................passed
+And şirket "study" gir......................................................passed
+And adres "İstanbul" gir....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Register Test" name="Hesap Yaratma 2" time="3.327814">
+        <failure message="org.openqa.selenium.WebDriverException: unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-5NQB2IN4', ip: '192.168.43.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Berna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50023}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4e28428fea20d29057a818aaa7ace071&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)&#13;&#10;&#9;at ObjectModels.AbstractClass.clickFon(AbstractClass.java:30)&#13;&#10;&#9;at ObjectModels.RegisterPage.clickSignInButton(RegisterPage.java:20)&#13;&#10;&#9;at stepDefinition.RegisterSteps.signButonunaTıkla(RegisterSteps.java:35)&#13;&#10;&#9;at ✽.And Sign butonuna tıkla(src/test/java/Register.feature:6)&#13;&#10;">
+            <![CDATA[Given Websitesine git.......................................................passed
+And Sign butonuna tıkla.....................................................failed
+And "ahmet@gmail.com" email gir.............................................skipped
+And Create an Account butonuna tıkla........................................skipped
+And title seç...............................................................skipped
+And isim "Ahmet" ve soyad "Salman" gir......................................skipped
+And şifre "asdf123" gir.....................................................skipped
+And şirket "Beko" gir.......................................................skipped
+And adres "Belçika" gir.....................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5NQB2IN4', ip: '192.168.43.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Berna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50023}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e28428fea20d29057a818aaa7ace071
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at ObjectModels.AbstractClass.clickFon(AbstractClass.java:30)
+	at ObjectModels.RegisterPage.clickSignInButton(RegisterPage.java:20)
+	at stepDefinition.RegisterSteps.signButonunaTıkla(RegisterSteps.java:35)
+	at ✽.And Sign butonuna tıkla(src/test/java/Register.feature:6)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

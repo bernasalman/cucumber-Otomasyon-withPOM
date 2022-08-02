@@ -1,0 +1,168 @@
+[
+  {
+    "source": "^Sign butonuna tıkla$",
+    "steps": [
+      {
+        "name": "Sign butonuna tıkla",
+        "aggregatedDurations": {
+          "average": 2.0311109,
+          "median": 2.0311109
+        },
+        "durations": [
+          {
+            "duration": 2.0311109,
+            "location": "src/test/java/Register.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\"([^\"]*)\" email gir$",
+    "steps": [
+      {
+        "name": "\"bernasalman@gmail.com\" email gir",
+        "aggregatedDurations": {
+          "average": 0.1677823,
+          "median": 0.1677823
+        },
+        "durations": [
+          {
+            "duration": 0.1677823,
+            "location": "src/test/java/Register.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^şifre \"([^\"]*)\" gir$",
+    "steps": [
+      {
+        "name": "şifre \"berna123\" gir",
+        "aggregatedDurations": {
+          "average": 0.2550003,
+          "median": 0.2550003
+        },
+        "durations": [
+          {
+            "duration": 0.2550003,
+            "location": "src/test/java/Register.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Websitesine git$",
+    "steps": [
+      {
+        "name": "Websitesine git",
+        "aggregatedDurations": {
+          "average": 4.4216691,
+          "median": 4.4216691
+        },
+        "durations": [
+          {
+            "duration": 7.5472656,
+            "location": "src/test/java/Register.feature:5"
+          },
+          {
+            "duration": 1.2960726,
+            "location": "src/test/java/Register.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^isim \"([^\"]*)\" ve soyad \"([^\"]*)\" gir$",
+    "steps": [
+      {
+        "name": "isim \"Berna\" ve soyad \"Salman\" gir",
+        "aggregatedDurations": {
+          "average": 0.3091151,
+          "median": 0.3091151
+        },
+        "durations": [
+          {
+            "duration": 0.3091151,
+            "location": "src/test/java/Register.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^title seç$",
+    "steps": [
+      {
+        "name": "title seç",
+        "aggregatedDurations": {
+          "average": 1.7431339,
+          "median": 1.7431339
+        },
+        "durations": [
+          {
+            "duration": 1.7431339,
+            "location": "src/test/java/Register.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^adres \"([^\"]*)\" gir$",
+    "steps": [
+      {
+        "name": "adres \"İstanbul\" gir",
+        "aggregatedDurations": {
+          "average": 0.1711561,
+          "median": 0.1711561
+        },
+        "durations": [
+          {
+            "duration": 0.1711561,
+            "location": "src/test/java/Register.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Create an Account butonuna tıkla$",
+    "steps": [
+      {
+        "name": "Create an Account butonuna tıkla",
+        "aggregatedDurations": {
+          "average": 0.114331,
+          "median": 0.114331
+        },
+        "durations": [
+          {
+            "duration": 0.114331,
+            "location": "src/test/java/Register.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^şirket \"([^\"]*)\" gir$",
+    "steps": [
+      {
+        "name": "şirket \"study\" gir",
+        "aggregatedDurations": {
+          "average": 0.1198733,
+          "median": 0.1198733
+        },
+        "durations": [
+          {
+            "duration": 0.1198733,
+            "location": "src/test/java/Register.feature:12"
+          }
+        ]
+      }
+    ]
+  }
+]
